@@ -8,26 +8,28 @@ class AllTypeTab extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListView(
       children: [
-        const SizedBox(height: 8,),
+        const SizedBox(height: 20,),
         DailyActionWidget(
           textDay: '7 days',
           textExercise: 'Morning Yoga',
           description: 'Improve mental focus.',
           assetsName: 'assets/images/img_workout_app/yoga_img.png',
-          width: 146.96,
+
         ),
+        const SizedBox(height:10 ,),
         DailyActionWidget(
             textDay: '3 days',
             textExercise: 'Plank Exercise',
             description: 'Improve posture and stability.',
             assetsName: 'assets/images/img_workout_app/plank_img.png',
-            width: 145),
+           ),
+        const SizedBox(height:10 ,),
         DailyActionWidget(
           textDay: '7 days',
           textExercise: 'Morning Yoga',
           description: 'Improve mental focus.',
           assetsName: 'assets/images/img_workout_app/yoga_img.png',
-          width: 146.96,
+
         ),
       ],
     );
